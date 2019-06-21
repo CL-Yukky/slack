@@ -11,7 +11,7 @@ type Reminder struct {
 	User       string `json:"user"`
 	Text       string `json:"text"`
 	Recurring  bool   `json:"recurring"`
-	Time       string `json:"time"`
+	Time       int `json:"time"`
 	CompleteTS int    `json:"complete_ts"`
 }
 
